@@ -95,7 +95,7 @@ button {
     
     .column img {
         width: 45vw;
-        padding: 20px;
+        padding: 0px 20px 20px 20px;
     }
 
 }
@@ -108,7 +108,7 @@ button {
     }
     
     .column img {
-        width: 43vw;
+        width: 48vw;
         padding: 20px;
     }
     

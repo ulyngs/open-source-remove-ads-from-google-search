@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D786D7CC28F18F3600108139 /* iphone_2_allow_access.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D786D7CB28F18F3600108139 /* iphone_2_allow_access.jpg */; };
 		D7D4C8CF28F1503B00396D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8CE28F1503B00396D64 /* AppDelegate.swift */; };
 		D7D4C8D128F1503B00396D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8D028F1503B00396D64 /* SceneDelegate.swift */; };
 		D7D4C8D428F1503B00396D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8D228F1503B00396D64 /* LaunchScreen.storyboard */; };
@@ -59,10 +60,6 @@
 		D7D4C96328F17D4700396D64 /* iphone_1_manage_extensions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96128F17D4700396D64 /* iphone_1_manage_extensions.jpg */; };
 		D7D4C96428F17D4700396D64 /* iphone_1_manage_extensions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96128F17D4700396D64 /* iphone_1_manage_extensions.jpg */; };
 		D7D4C96528F17D4700396D64 /* iphone_1_manage_extensions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96128F17D4700396D64 /* iphone_1_manage_extensions.jpg */; };
-		D7D4C96728F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96628F17D4D00396D64 /* iphone_2_allow_access.jpg */; };
-		D7D4C96828F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96628F17D4D00396D64 /* iphone_2_allow_access.jpg */; };
-		D7D4C96928F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96628F17D4D00396D64 /* iphone_2_allow_access.jpg */; };
-		D7D4C96A28F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C96628F17D4D00396D64 /* iphone_2_allow_access.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +105,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D786D7CB28F18F3600108139 /* iphone_2_allow_access.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_2_allow_access.jpg; sourceTree = "<group>"; };
 		D7D4C8B628F1503900396D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		D7D4C8B828F1503900396D64 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		D7D4C8B928F1503900396D64 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 		D7D4C95728F17D3C00396D64 /* ipad_1_manage_extensions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_1_manage_extensions.jpg; sourceTree = "<group>"; };
 		D7D4C95C28F17D4100396D64 /* ipad_2_allow_access.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_2_allow_access.jpg; sourceTree = "<group>"; };
 		D7D4C96128F17D4700396D64 /* iphone_1_manage_extensions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_1_manage_extensions.jpg; sourceTree = "<group>"; };
-		D7D4C96628F17D4D00396D64 /* iphone_2_allow_access.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_2_allow_access.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +245,7 @@
 		D7D4C8CD28F1503B00396D64 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				D7D4C96628F17D4D00396D64 /* iphone_2_allow_access.jpg */,
+				D786D7CB28F18F3600108139 /* iphone_2_allow_access.jpg */,
 				D7D4C96128F17D4700396D64 /* iphone_1_manage_extensions.jpg */,
 				D7D4C95C28F17D4100396D64 /* ipad_2_allow_access.jpg */,
 				D7D4C95728F17D3C00396D64 /* ipad_1_manage_extensions.jpg */,
@@ -422,7 +419,7 @@
 				D7D4C90428F1503B00396D64 /* Assets.xcassets in Resources */,
 				D7D4C8D728F1503B00396D64 /* Main.storyboard in Resources */,
 				D7D4C8FE28F1503B00396D64 /* Style.css in Resources */,
-				D7D4C96728F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */,
+				D786D7CC28F18F3600108139 /* iphone_2_allow_access.jpg in Resources */,
 				D7D4C96228F17D4700396D64 /* iphone_1_manage_extensions.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,7 +437,6 @@
 				D7D4C90528F1503B00396D64 /* Assets.xcassets in Resources */,
 				D7D4C93528F16E4700396D64 /* app-icon-384.png in Resources */,
 				D7D4C8FB28F1503B00396D64 /* Main.html in Resources */,
-				D7D4C96828F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +445,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D4C92928F151FA00396D64 /* style.css in Resources */,
-				D7D4C96928F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */,
 				D7D4C91428F1503B00396D64 /* popup.css in Resources */,
 				D7D4C91228F1503B00396D64 /* popup.html in Resources */,
 				D7D4C95F28F17D4100396D64 /* ipad_2_allow_access.jpg in Resources */,
@@ -469,7 +464,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D4C92A28F151FA00396D64 /* style.css in Resources */,
-				D7D4C96A28F17D4D00396D64 /* iphone_2_allow_access.jpg in Resources */,
 				D7D4C91528F1503B00396D64 /* popup.css in Resources */,
 				D7D4C91328F1503B00396D64 /* popup.html in Resources */,
 				D7D4C96028F17D4100396D64 /* ipad_2_allow_access.jpg in Resources */,
