@@ -17,8 +17,6 @@
 		D7D4C8F428F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D7D4C8F328F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D7D4C8FA28F1503B00396D64 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B528F1503900396D64 /* Main.html */; };
 		D7D4C8FB28F1503B00396D64 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B528F1503900396D64 /* Main.html */; };
-		D7D4C8FC28F1503B00396D64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B728F1503900396D64 /* Icon.png */; };
-		D7D4C8FD28F1503B00396D64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B728F1503900396D64 /* Icon.png */; };
 		D7D4C8FE28F1503B00396D64 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B828F1503900396D64 /* Style.css */; };
 		D7D4C8FF28F1503B00396D64 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B828F1503900396D64 /* Style.css */; };
 		D7D4C90028F1503B00396D64 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B928F1503900396D64 /* Script.js */; };
@@ -45,6 +43,10 @@
 		D7D4C91728F1503B00396D64 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C628F1503B00396D64 /* popup.js */; };
 		D7D4C92928F151FA00396D64 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C92828F151FA00396D64 /* style.css */; };
 		D7D4C92A28F151FA00396D64 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C92828F151FA00396D64 /* style.css */; };
+		D7D4C93428F16E4700396D64 /* app-icon-384.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C93328F16E4700396D64 /* app-icon-384.png */; };
+		D7D4C93528F16E4700396D64 /* app-icon-384.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C93328F16E4700396D64 /* app-icon-384.png */; };
+		D7D4C93628F16E4700396D64 /* app-icon-384.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C93328F16E4700396D64 /* app-icon-384.png */; };
+		D7D4C93728F16E4700396D64 /* app-icon-384.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C93328F16E4700396D64 /* app-icon-384.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +93,6 @@
 
 /* Begin PBXFileReference section */
 		D7D4C8B628F1503900396D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		D7D4C8B728F1503900396D64 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D7D4C8B828F1503900396D64 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		D7D4C8B928F1503900396D64 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		D7D4C8BA28F1503900396D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 		D7D4C8F828F1503B00396D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D4C8F928F1503B00396D64 /* Remove Ads from Google Search Results.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remove Ads from Google Search Results.entitlements"; sourceTree = "<group>"; };
 		D7D4C92828F151FA00396D64 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		D7D4C93328F16E4700396D64 /* app-icon-384.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-384.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,8 +182,8 @@
 		D7D4C8B428F1503900396D64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7D4C93328F16E4700396D64 /* app-icon-384.png */,
 				D7D4C8B528F1503900396D64 /* Main.html */,
-				D7D4C8B728F1503900396D64 /* Icon.png */,
 				D7D4C8B828F1503900396D64 /* Style.css */,
 				D7D4C8B928F1503900396D64 /* Script.js */,
 			);
@@ -387,10 +389,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D4C8FC28F1503B00396D64 /* Icon.png in Resources */,
 				D7D4C8D428F1503B00396D64 /* LaunchScreen.storyboard in Resources */,
 				D7D4C8FA28F1503B00396D64 /* Main.html in Resources */,
 				D7D4C90028F1503B00396D64 /* Script.js in Resources */,
+				D7D4C93428F16E4700396D64 /* app-icon-384.png in Resources */,
 				D7D4C90428F1503B00396D64 /* Assets.xcassets in Resources */,
 				D7D4C8D728F1503B00396D64 /* Main.storyboard in Resources */,
 				D7D4C8FE28F1503B00396D64 /* Style.css in Resources */,
@@ -401,11 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D4C8FD28F1503B00396D64 /* Icon.png in Resources */,
 				D7D4C8FF28F1503B00396D64 /* Style.css in Resources */,
 				D7D4C8E328F1503B00396D64 /* Main.storyboard in Resources */,
 				D7D4C90128F1503B00396D64 /* Script.js in Resources */,
 				D7D4C90528F1503B00396D64 /* Assets.xcassets in Resources */,
+				D7D4C93528F16E4700396D64 /* app-icon-384.png in Resources */,
 				D7D4C8FB28F1503B00396D64 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +420,7 @@
 				D7D4C91428F1503B00396D64 /* popup.css in Resources */,
 				D7D4C91228F1503B00396D64 /* popup.html in Resources */,
 				D7D4C90A28F1503B00396D64 /* images in Resources */,
+				D7D4C93628F16E4700396D64 /* app-icon-384.png in Resources */,
 				D7D4C90C28F1503B00396D64 /* manifest.json in Resources */,
 				D7D4C90828F1503B00396D64 /* _locales in Resources */,
 				D7D4C91028F1503B00396D64 /* content.js in Resources */,
@@ -433,6 +436,7 @@
 				D7D4C91528F1503B00396D64 /* popup.css in Resources */,
 				D7D4C91328F1503B00396D64 /* popup.html in Resources */,
 				D7D4C90B28F1503B00396D64 /* images in Resources */,
+				D7D4C93728F16E4700396D64 /* app-icon-384.png in Resources */,
 				D7D4C90D28F1503B00396D64 /* manifest.json in Resources */,
 				D7D4C90928F1503B00396D64 /* _locales in Resources */,
 				D7D4C91128F1503B00396D64 /* content.js in Resources */,
