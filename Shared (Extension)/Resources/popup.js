@@ -11,13 +11,19 @@ document.addEventListener('DOMContentLoaded', function() {
             chrome.tabs.sendMessage(tabs[0].id, {method: "checkAds"}, function(response) {
                 
                 var adsCheckbox = document.getElementById('adsToggle');
+                var adsCheckboxLabel = document.getElementById('adsToggleLabel');
                 
                 if(response.method === "checkAds"){
-                    if(response.text === "visible"){
+                    if(response.text === "no ads"){
+                        adsCheckboxLabel.innerHTML = "No ads in results";
+                        document.getElementById("adsToggle").disabled = true;
+                    } else if (response.text === "visible") {
+                        document.getElementById("adsToggle").disabled = false;
                         adsCheckbox.checked = true;
                     } else {
+                        document.getElementById("adsToggle").disabled = false;
                         adsCheckbox.checked = false;
-                    }
+                    } 
                 }
             });
         }

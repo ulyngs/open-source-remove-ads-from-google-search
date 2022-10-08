@@ -8,7 +8,9 @@ chrome.runtime.onMessage.addListener(
         
         // check for visibility
         if(request.method == "checkAds"){
-            if (adsMobile == null){
+            if (ads == null && adsMobile == null){
+                sendResponse({text: "no ads", method: "checkAds"});
+            } else if (adsMobile == null){
                 if (ads.style.display === "none") {
                     sendResponse({text: "hidden", method: "checkAds"});
                 } else if (ads.style.display === "block") {
