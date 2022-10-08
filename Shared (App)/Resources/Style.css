@@ -84,7 +84,7 @@ button {
     }
     
     p {
-        font-size: 2em;
+        font-size: 1.1em;
         margin-bottom: 3vw;
         padding: 0;
     }
@@ -101,7 +101,7 @@ button {
 }
 
 
-
+/* iPad */
 @media only screen and (min-device-width: 429px) and (max-device-width: 1024px) {
     .platform-iphone {
         display: none;

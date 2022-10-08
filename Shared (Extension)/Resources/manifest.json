@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "default_locale": "en",
 
-    "name": "Remove Ads from Google Search Results",
+    "name": "Remove Ads from Google Search",
     "description": "Hides ads in the search results Google returns. The ads can be toggle on when desired.",
     "version": "1.0",
 
