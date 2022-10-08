@@ -690,7 +690,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -721,7 +721,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -756,7 +756,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -794,7 +794,7 @@
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -832,7 +832,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -864,7 +864,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
