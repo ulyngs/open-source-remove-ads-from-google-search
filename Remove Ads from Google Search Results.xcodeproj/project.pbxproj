@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D4C8CF28F1503B00396D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8CE28F1503B00396D64 /* AppDelegate.swift */; };
+		D7D4C8D128F1503B00396D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8D028F1503B00396D64 /* SceneDelegate.swift */; };
+		D7D4C8D428F1503B00396D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8D228F1503B00396D64 /* LaunchScreen.storyboard */; };
+		D7D4C8D728F1503B00396D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8D528F1503B00396D64 /* Main.storyboard */; };
+		D7D4C8E028F1503B00396D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8DF28F1503B00396D64 /* AppDelegate.swift */; };
+		D7D4C8E328F1503B00396D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8E128F1503B00396D64 /* Main.storyboard */; };
+		D7D4C8EA28F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D7D4C8E928F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7D4C8F428F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D7D4C8F328F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7D4C8FA28F1503B00396D64 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B528F1503900396D64 /* Main.html */; };
+		D7D4C8FB28F1503B00396D64 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B528F1503900396D64 /* Main.html */; };
+		D7D4C8FC28F1503B00396D64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B728F1503900396D64 /* Icon.png */; };
+		D7D4C8FD28F1503B00396D64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B728F1503900396D64 /* Icon.png */; };
+		D7D4C8FE28F1503B00396D64 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B828F1503900396D64 /* Style.css */; };
+		D7D4C8FF28F1503B00396D64 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B828F1503900396D64 /* Style.css */; };
+		D7D4C90028F1503B00396D64 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B928F1503900396D64 /* Script.js */; };
+		D7D4C90128F1503B00396D64 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8B928F1503900396D64 /* Script.js */; };
+		D7D4C90228F1503B00396D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8BA28F1503900396D64 /* ViewController.swift */; };
+		D7D4C90328F1503B00396D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8BA28F1503900396D64 /* ViewController.swift */; };
+		D7D4C90428F1503B00396D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8BB28F1503B00396D64 /* Assets.xcassets */; };
+		D7D4C90528F1503B00396D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8BB28F1503B00396D64 /* Assets.xcassets */; };
+		D7D4C90628F1503B00396D64 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8BD28F1503B00396D64 /* SafariWebExtensionHandler.swift */; };
+		D7D4C90728F1503B00396D64 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4C8BD28F1503B00396D64 /* SafariWebExtensionHandler.swift */; };
+		D7D4C90828F1503B00396D64 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8BF28F1503B00396D64 /* _locales */; };
+		D7D4C90928F1503B00396D64 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8BF28F1503B00396D64 /* _locales */; };
+		D7D4C90A28F1503B00396D64 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C028F1503B00396D64 /* images */; };
+		D7D4C90B28F1503B00396D64 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C028F1503B00396D64 /* images */; };
+		D7D4C90C28F1503B00396D64 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C128F1503B00396D64 /* manifest.json */; };
+		D7D4C90D28F1503B00396D64 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C128F1503B00396D64 /* manifest.json */; };
+		D7D4C90E28F1503B00396D64 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C228F1503B00396D64 /* background.js */; };
+		D7D4C90F28F1503B00396D64 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C228F1503B00396D64 /* background.js */; };
+		D7D4C91028F1503B00396D64 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C328F1503B00396D64 /* content.js */; };
+		D7D4C91128F1503B00396D64 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C328F1503B00396D64 /* content.js */; };
+		D7D4C91228F1503B00396D64 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C428F1503B00396D64 /* popup.html */; };
+		D7D4C91328F1503B00396D64 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C428F1503B00396D64 /* popup.html */; };
+		D7D4C91428F1503B00396D64 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C528F1503B00396D64 /* popup.css */; };
+		D7D4C91528F1503B00396D64 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C528F1503B00396D64 /* popup.css */; };
+		D7D4C91628F1503B00396D64 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C628F1503B00396D64 /* popup.js */; };
+		D7D4C91728F1503B00396D64 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C628F1503B00396D64 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D4C8EB28F1503B00396D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D4C8AF28F1503900396D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D4C8E828F1503B00396D64;
+			remoteInfo = "Remove Ads from Google Search Results Extension (iOS)";
+		};
+		D7D4C8F528F1503B00396D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D4C8AF28F1503900396D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D4C8F228F1503B00396D64;
+			remoteInfo = "Remove Ads from Google Search Results Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7D4C91D28F1503B00396D64 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7D4C8EA28F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C92428F1503B00396D64 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7D4C8F428F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7D4C8B628F1503900396D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		D7D4C8B728F1503900396D64 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D7D4C8B828F1503900396D64 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D7D4C8B928F1503900396D64 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D7D4C8BA28F1503900396D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7D4C8BB28F1503B00396D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7D4C8BD28F1503B00396D64 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D7D4C8BF28F1503B00396D64 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		D7D4C8C028F1503B00396D64 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		D7D4C8C128F1503B00396D64 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		D7D4C8C228F1503B00396D64 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		D7D4C8C328F1503B00396D64 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		D7D4C8C428F1503B00396D64 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		D7D4C8C528F1503B00396D64 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		D7D4C8C628F1503B00396D64 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		D7D4C8CB28F1503B00396D64 /* Remove Ads from Google Search Results.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remove Ads from Google Search Results.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4C8CE28F1503B00396D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D4C8D028F1503B00396D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7D4C8D328F1503B00396D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7D4C8D628F1503B00396D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D4C8D828F1503B00396D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4C8DD28F1503B00396D64 /* Remove Ads from Google Search Results.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remove Ads from Google Search Results.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4C8DF28F1503B00396D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D4C8E228F1503B00396D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D4C8E428F1503B00396D64 /* Remove Ads from Google Search Results.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remove Ads from Google Search Results.entitlements"; sourceTree = "<group>"; };
+		D7D4C8E928F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Remove Ads from Google Search Results Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4C8EE28F1503B00396D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4C8F328F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Remove Ads from Google Search Results Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4C8F828F1503B00396D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4C8F928F1503B00396D64 /* Remove Ads from Google Search Results.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remove Ads from Google Search Results.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D4C8C828F1503B00396D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8DA28F1503B00396D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8E628F1503B00396D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8F028F1503B00396D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D4C8AE28F1503900396D64 = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8B328F1503900396D64 /* Shared (App) */,
+				D7D4C8BC28F1503B00396D64 /* Shared (Extension) */,
+				D7D4C8CD28F1503B00396D64 /* iOS (App) */,
+				D7D4C8DE28F1503B00396D64 /* macOS (App) */,
+				D7D4C8ED28F1503B00396D64 /* iOS (Extension) */,
+				D7D4C8F728F1503B00396D64 /* macOS (Extension) */,
+				D7D4C8CC28F1503B00396D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D4C8B328F1503900396D64 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8BA28F1503900396D64 /* ViewController.swift */,
+				D7D4C8BB28F1503B00396D64 /* Assets.xcassets */,
+				D7D4C8B428F1503900396D64 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D7D4C8B428F1503900396D64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8B528F1503900396D64 /* Main.html */,
+				D7D4C8B728F1503900396D64 /* Icon.png */,
+				D7D4C8B828F1503900396D64 /* Style.css */,
+				D7D4C8B928F1503900396D64 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7D4C8BC28F1503B00396D64 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8BD28F1503B00396D64 /* SafariWebExtensionHandler.swift */,
+				D7D4C8BE28F1503B00396D64 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D7D4C8BE28F1503B00396D64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8BF28F1503B00396D64 /* _locales */,
+				D7D4C8C028F1503B00396D64 /* images */,
+				D7D4C8C128F1503B00396D64 /* manifest.json */,
+				D7D4C8C228F1503B00396D64 /* background.js */,
+				D7D4C8C328F1503B00396D64 /* content.js */,
+				D7D4C8C428F1503B00396D64 /* popup.html */,
+				D7D4C8C528F1503B00396D64 /* popup.css */,
+				D7D4C8C628F1503B00396D64 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7D4C8CC28F1503B00396D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8CB28F1503B00396D64 /* Remove Ads from Google Search Results.app */,
+				D7D4C8DD28F1503B00396D64 /* Remove Ads from Google Search Results.app */,
+				D7D4C8E928F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */,
+				D7D4C8F328F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D4C8CD28F1503B00396D64 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8CE28F1503B00396D64 /* AppDelegate.swift */,
+				D7D4C8D028F1503B00396D64 /* SceneDelegate.swift */,
+				D7D4C8D228F1503B00396D64 /* LaunchScreen.storyboard */,
+				D7D4C8D528F1503B00396D64 /* Main.storyboard */,
+				D7D4C8D828F1503B00396D64 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		D7D4C8DE28F1503B00396D64 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8DF28F1503B00396D64 /* AppDelegate.swift */,
+				D7D4C8E128F1503B00396D64 /* Main.storyboard */,
+				D7D4C8E428F1503B00396D64 /* Remove Ads from Google Search Results.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D7D4C8ED28F1503B00396D64 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8EE28F1503B00396D64 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D7D4C8F728F1503B00396D64 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4C8F828F1503B00396D64 /* Info.plist */,
+				D7D4C8F928F1503B00396D64 /* Remove Ads from Google Search Results.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D4C8CA28F1503B00396D64 /* Remove Ads from Google Search Results (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D4C91E28F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results (iOS)" */;
+			buildPhases = (
+				D7D4C8C728F1503B00396D64 /* Sources */,
+				D7D4C8C828F1503B00396D64 /* Frameworks */,
+				D7D4C8C928F1503B00396D64 /* Resources */,
+				D7D4C91D28F1503B00396D64 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D4C8EC28F1503B00396D64 /* PBXTargetDependency */,
+			);
+			name = "Remove Ads from Google Search Results (iOS)";
+			productName = "Remove Ads from Google Search Results (iOS)";
+			productReference = D7D4C8CB28F1503B00396D64 /* Remove Ads from Google Search Results.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7D4C8DC28F1503B00396D64 /* Remove Ads from Google Search Results (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D4C92528F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results (macOS)" */;
+			buildPhases = (
+				D7D4C8D928F1503B00396D64 /* Sources */,
+				D7D4C8DA28F1503B00396D64 /* Frameworks */,
+				D7D4C8DB28F1503B00396D64 /* Resources */,
+				D7D4C92428F1503B00396D64 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D4C8F628F1503B00396D64 /* PBXTargetDependency */,
+			);
+			name = "Remove Ads from Google Search Results (macOS)";
+			productName = "Remove Ads from Google Search Results (macOS)";
+			productReference = D7D4C8DD28F1503B00396D64 /* Remove Ads from Google Search Results.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7D4C8E828F1503B00396D64 /* Remove Ads from Google Search Results Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D4C91A28F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results Extension (iOS)" */;
+			buildPhases = (
+				D7D4C8E528F1503B00396D64 /* Sources */,
+				D7D4C8E628F1503B00396D64 /* Frameworks */,
+				D7D4C8E728F1503B00396D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Ads from Google Search Results Extension (iOS)";
+			productName = "Remove Ads from Google Search Results Extension (iOS)";
+			productReference = D7D4C8E928F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D7D4C8F228F1503B00396D64 /* Remove Ads from Google Search Results Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D4C92128F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results Extension (macOS)" */;
+			buildPhases = (
+				D7D4C8EF28F1503B00396D64 /* Sources */,
+				D7D4C8F028F1503B00396D64 /* Frameworks */,
+				D7D4C8F128F1503B00396D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Ads from Google Search Results Extension (macOS)";
+			productName = "Remove Ads from Google Search Results Extension (macOS)";
+			productReference = D7D4C8F328F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D4C8AF28F1503900396D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D7D4C8CA28F1503B00396D64 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D7D4C8DC28F1503B00396D64 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D7D4C8E828F1503B00396D64 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D7D4C8F228F1503B00396D64 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D7D4C8B228F1503900396D64 /* Build configuration list for PBXProject "Remove Ads from Google Search Results" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D4C8AE28F1503900396D64;
+			productRefGroup = D7D4C8CC28F1503B00396D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D4C8CA28F1503B00396D64 /* Remove Ads from Google Search Results (iOS) */,
+				D7D4C8DC28F1503B00396D64 /* Remove Ads from Google Search Results (macOS) */,
+				D7D4C8E828F1503B00396D64 /* Remove Ads from Google Search Results Extension (iOS) */,
+				D7D4C8F228F1503B00396D64 /* Remove Ads from Google Search Results Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D4C8C928F1503B00396D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C8FC28F1503B00396D64 /* Icon.png in Resources */,
+				D7D4C8D428F1503B00396D64 /* LaunchScreen.storyboard in Resources */,
+				D7D4C8FA28F1503B00396D64 /* Main.html in Resources */,
+				D7D4C90028F1503B00396D64 /* Script.js in Resources */,
+				D7D4C90428F1503B00396D64 /* Assets.xcassets in Resources */,
+				D7D4C8D728F1503B00396D64 /* Main.storyboard in Resources */,
+				D7D4C8FE28F1503B00396D64 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8DB28F1503B00396D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C8FD28F1503B00396D64 /* Icon.png in Resources */,
+				D7D4C8FF28F1503B00396D64 /* Style.css in Resources */,
+				D7D4C8E328F1503B00396D64 /* Main.storyboard in Resources */,
+				D7D4C90128F1503B00396D64 /* Script.js in Resources */,
+				D7D4C90528F1503B00396D64 /* Assets.xcassets in Resources */,
+				D7D4C8FB28F1503B00396D64 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8E728F1503B00396D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C90E28F1503B00396D64 /* background.js in Resources */,
+				D7D4C91428F1503B00396D64 /* popup.css in Resources */,
+				D7D4C91228F1503B00396D64 /* popup.html in Resources */,
+				D7D4C90A28F1503B00396D64 /* images in Resources */,
+				D7D4C90C28F1503B00396D64 /* manifest.json in Resources */,
+				D7D4C90828F1503B00396D64 /* _locales in Resources */,
+				D7D4C91028F1503B00396D64 /* content.js in Resources */,
+				D7D4C91628F1503B00396D64 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8F128F1503B00396D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C90F28F1503B00396D64 /* background.js in Resources */,
+				D7D4C91528F1503B00396D64 /* popup.css in Resources */,
+				D7D4C91328F1503B00396D64 /* popup.html in Resources */,
+				D7D4C90B28F1503B00396D64 /* images in Resources */,
+				D7D4C90D28F1503B00396D64 /* manifest.json in Resources */,
+				D7D4C90928F1503B00396D64 /* _locales in Resources */,
+				D7D4C91128F1503B00396D64 /* content.js in Resources */,
+				D7D4C91728F1503B00396D64 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D4C8C728F1503B00396D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C90228F1503B00396D64 /* ViewController.swift in Sources */,
+				D7D4C8CF28F1503B00396D64 /* AppDelegate.swift in Sources */,
+				D7D4C8D128F1503B00396D64 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8D928F1503B00396D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C90328F1503B00396D64 /* ViewController.swift in Sources */,
+				D7D4C8E028F1503B00396D64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8E528F1503B00396D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C90628F1503B00396D64 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D4C8EF28F1503B00396D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4C90728F1503B00396D64 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D4C8EC28F1503B00396D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D4C8E828F1503B00396D64 /* Remove Ads from Google Search Results Extension (iOS) */;
+			targetProxy = D7D4C8EB28F1503B00396D64 /* PBXContainerItemProxy */;
+		};
+		D7D4C8F628F1503B00396D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D4C8F228F1503B00396D64 /* Remove Ads from Google Search Results Extension (macOS) */;
+			targetProxy = D7D4C8F528F1503B00396D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7D4C8B528F1503900396D64 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D4C8B628F1503900396D64 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D7D4C8D228F1503B00396D64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D4C8D328F1503B00396D64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D7D4C8D528F1503B00396D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D4C8D628F1503B00396D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7D4C8E128F1503B00396D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D4C8E228F1503B00396D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D4C91828F1503B00396D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7D4C91928F1503B00396D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7D4C91B28F1503B00396D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results.Extension";
+				PRODUCT_NAME = "Remove Ads from Google Search Results Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7D4C91C28F1503B00396D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results.Extension";
+				PRODUCT_NAME = "Remove Ads from Google Search Results Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D4C91F28F1503B00396D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results";
+				PRODUCT_NAME = "Remove Ads from Google Search Results";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7D4C92028F1503B00396D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results";
+				PRODUCT_NAME = "Remove Ads from Google Search Results";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D4C92228F1503B00396D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Remove Ads from Google Search Results.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results.Extension";
+				PRODUCT_NAME = "Remove Ads from Google Search Results Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7D4C92328F1503B00396D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Remove Ads from Google Search Results.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results.Extension";
+				PRODUCT_NAME = "Remove Ads from Google Search Results Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7D4C92628F1503B00396D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Remove Ads from Google Search Results.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results";
+				PRODUCT_NAME = "Remove Ads from Google Search Results";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7D4C92728F1503B00396D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Remove Ads from Google Search Results.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Ads from Google Search Results";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results";
+				PRODUCT_NAME = "Remove Ads from Google Search Results";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D4C8B228F1503900396D64 /* Build configuration list for PBXProject "Remove Ads from Google Search Results" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C91828F1503B00396D64 /* Debug */,
+				D7D4C91928F1503B00396D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D4C91A28F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C91B28F1503B00396D64 /* Debug */,
+				D7D4C91C28F1503B00396D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D4C91E28F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C91F28F1503B00396D64 /* Debug */,
+				D7D4C92028F1503B00396D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D4C92128F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C92228F1503B00396D64 /* Debug */,
+				D7D4C92328F1503B00396D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D4C92528F1503B00396D64 /* Build configuration list for PBXNativeTarget "Remove Ads from Google Search Results (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D4C92628F1503B00396D64 /* Debug */,
+				D7D4C92728F1503B00396D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7D4C8AF28F1503900396D64 /* Project object */;
+}
