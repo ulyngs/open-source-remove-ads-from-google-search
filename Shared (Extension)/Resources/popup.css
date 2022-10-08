@@ -3,13 +3,58 @@
 }
 
 body {
-    width: 100px;
+    width: 200px;
     padding: 10px;
 
     font-family: system-ui;
     text-align: center;
 }
 
+.smaller-font {
+    font-size: 0.85em;
+}
+
+.colored-font {
+    color: gray;
+}
+
+.a-toggle {
+    margin-bottom: 5px;
+}
+
+.tooltip-content {
+  display: none;
+}
+.comments-toggle-wrapper:hover + .tooltip-content {
+  display: block;
+}
+
+
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
+}
+
+/******* HIDE IRRELEVANT TOGGLES *******/
+/* iPhone */
+@media only screen and (max-device-width: 768px) {
+    .platform-ipad-mac {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) {
+    .platform-iphone {
+        display: none;
+    }
+}
+
+.content-toggles {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+a:visited {
+    color: blue;
 }

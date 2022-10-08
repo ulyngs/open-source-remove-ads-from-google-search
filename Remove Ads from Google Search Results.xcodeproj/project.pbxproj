@@ -35,8 +35,6 @@
 		D7D4C90B28F1503B00396D64 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C028F1503B00396D64 /* images */; };
 		D7D4C90C28F1503B00396D64 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C128F1503B00396D64 /* manifest.json */; };
 		D7D4C90D28F1503B00396D64 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C128F1503B00396D64 /* manifest.json */; };
-		D7D4C90E28F1503B00396D64 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C228F1503B00396D64 /* background.js */; };
-		D7D4C90F28F1503B00396D64 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C228F1503B00396D64 /* background.js */; };
 		D7D4C91028F1503B00396D64 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C328F1503B00396D64 /* content.js */; };
 		D7D4C91128F1503B00396D64 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C328F1503B00396D64 /* content.js */; };
 		D7D4C91228F1503B00396D64 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C428F1503B00396D64 /* popup.html */; };
@@ -45,6 +43,8 @@
 		D7D4C91528F1503B00396D64 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C528F1503B00396D64 /* popup.css */; };
 		D7D4C91628F1503B00396D64 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C628F1503B00396D64 /* popup.js */; };
 		D7D4C91728F1503B00396D64 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C8C628F1503B00396D64 /* popup.js */; };
+		D7D4C92928F151FA00396D64 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C92828F151FA00396D64 /* style.css */; };
+		D7D4C92A28F151FA00396D64 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7D4C92828F151FA00396D64 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +100,6 @@
 		D7D4C8BF28F1503B00396D64 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		D7D4C8C028F1503B00396D64 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		D7D4C8C128F1503B00396D64 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		D7D4C8C228F1503B00396D64 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		D7D4C8C328F1503B00396D64 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		D7D4C8C428F1503B00396D64 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		D7D4C8C528F1503B00396D64 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
@@ -120,6 +119,7 @@
 		D7D4C8F328F1503B00396D64 /* Remove Ads from Google Search Results Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Remove Ads from Google Search Results Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4C8F828F1503B00396D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D4C8F928F1503B00396D64 /* Remove Ads from Google Search Results.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remove Ads from Google Search Results.entitlements"; sourceTree = "<group>"; };
+		D7D4C92828F151FA00396D64 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,11 +203,11 @@
 				D7D4C8BF28F1503B00396D64 /* _locales */,
 				D7D4C8C028F1503B00396D64 /* images */,
 				D7D4C8C128F1503B00396D64 /* manifest.json */,
-				D7D4C8C228F1503B00396D64 /* background.js */,
 				D7D4C8C328F1503B00396D64 /* content.js */,
 				D7D4C8C428F1503B00396D64 /* popup.html */,
 				D7D4C8C528F1503B00396D64 /* popup.css */,
 				D7D4C8C628F1503B00396D64 /* popup.js */,
+				D7D4C92828F151FA00396D64 /* style.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -414,7 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D4C90E28F1503B00396D64 /* background.js in Resources */,
+				D7D4C92928F151FA00396D64 /* style.css in Resources */,
 				D7D4C91428F1503B00396D64 /* popup.css in Resources */,
 				D7D4C91228F1503B00396D64 /* popup.html in Resources */,
 				D7D4C90A28F1503B00396D64 /* images in Resources */,
@@ -429,7 +429,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D4C90F28F1503B00396D64 /* background.js in Resources */,
+				D7D4C92A28F151FA00396D64 /* style.css in Resources */,
 				D7D4C91528F1503B00396D64 /* popup.css in Resources */,
 				D7D4C91328F1503B00396D64 /* popup.html in Resources */,
 				D7D4C90B28F1503B00396D64 /* images in Resources */,
