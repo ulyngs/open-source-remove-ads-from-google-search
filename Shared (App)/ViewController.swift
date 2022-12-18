@@ -16,7 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "com.ulriklyngs.Remove-Ads-from-Google-Search-Results.Extension"
+let extensionBundleIdentifier = "com.ulriklyngs.Remove-Ads-from-Google-Search.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

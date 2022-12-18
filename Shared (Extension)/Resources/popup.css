@@ -4,7 +4,6 @@
 
 body {
     width: 200px;
-    height: 50px;
     padding: 10px;
 
     font-family: system-ui;
@@ -15,12 +14,10 @@ body {
     font-size: 0.85em;
 }
 
-.colored-font {
-    color: gray;
-}
-
-.a-toggle {
+.a-toggle,
+.save-toggle {
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .tooltip-content {
@@ -30,12 +27,33 @@ body {
   display: block;
 }
 
+.toggle-group {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+.toggle-group h2 {
+    font-size: 1.1em;
+    margin: 0px 0px 5px 0px;
+}
 
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
+    .colored-font {
+        color: lightgray;
+    }
 }
 
 /******* HIDE IRRELEVANT TOGGLES *******/
+@media only screen and (max-device-width: 1312px) {
+    .youtube-large-only {
+        display:none
+    }
+    a:visited {
+        color: darkgray;
+    }
+}
+
+
 /* iPhone */
 @media only screen and (max-device-width: 768px) {
     .platform-ipad-mac {
@@ -58,4 +76,16 @@ body {
 
 a:visited {
     color: blue;
+}
+
+#saveButton {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 8px;
 }
